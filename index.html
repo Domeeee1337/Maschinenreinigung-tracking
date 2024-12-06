@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maschinenreinigung</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Maschinenreinigung</h1>
+      <p>Jede Woche sind folgende Maschinen zu reinigen:</p>
+    </div>
+
+    <div class="button-container">
+      <button onclick="window.location.href='maschine1.html'">
+        Jivaro klein
+      </button>
+      <button onclick="window.location.href='maschine2.html'">
+        Jivaro groß
+      </button>
+      <button onclick="window.location.href='maschine3.html'">
+        Lantech klein
+      </button>
+      <button onclick="window.location.href='maschine4.html'">
+        Lantech groß
+      </button>
+    </div>
+
+    <div class="table-container">
+      <h2>Letzte Einträge</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Maschine</th>
+            <th>KW</th>
+            <th>Datum</th>
+            <th>Uhrzeit</th>
+            <th>Name</th>
+            <th>Notiz</th>
+          </tr>
+        </thead>
+        <tbody id="last-entries">
+          <!-- Einträge werden hier per JavaScript eingefügt -->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="hauptseite.js"></script>
+  </body>
+</html>

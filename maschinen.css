@@ -1,0 +1,57 @@
+<style>
+        body {
+            font-family: Arial, sans-serif; /* Schrifteinstellung */
+         }
+        
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #007bff;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+        }
+        td {
+            background-color: #f9f9f9; /* Heller Hintergrund für die Datenzellen */
+          }
+        tr:nth-child(even) td {
+            background-color: #f1f1f1; /* Abwechselnde Zeilenfarben für bessere Lesbarkeit */
+          }
+          
+        tr:hover td {
+            background-color: #e9f3ff; /* Farbänderung bei Hover über eine Zeile */
+          }
+        input, textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+
+        .zurueck-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .zurueck-button:hover {
+            background-color: #0056b3;
+        }
+
+         
+    </style>

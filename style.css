@@ -1,0 +1,81 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Schrifteinstellung */
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  font-size: 16px; /* Größere Schrift für Buttons */
+  cursor: pointer; /* Handcursor für Klickbarkeit */
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Tabellenbereich innerhalb der Seite */
+  margin: 0 auto;
+  flex-direction: column; /* Zeigt die Tabelle unter dem <h2> */
+}
+
+table {
+  width: 80%; /* Passt die Breite der Tabelle an */
+  border-collapse: collapse; /* Verhindert doppelte Ränder */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Fügt einen leichten Schatten um die Tabelle hinzu */
+}
+
+th,
+td {
+  border: 2px solid #007bff; /* Blaue Ränder für Zellen */
+  padding: 12px 15px; /* Mehr Abstand in den Zellen */
+  text-align: center; /* Zelleninhalt zentrieren */
+}
+
+th {
+  background-color: #007bff; /* Blaue Hintergrundfarbe für die Spaltenüberschriften */
+  color: white; /* Weiße Schrift für die Kopfzeilen */
+  font-weight: bold; /* Fettgedruckte Schrift für die Kopfzeilen */
+}
+
+td {
+  background-color: #f9f9f9; /* Heller Hintergrund für die Datenzellen */
+}
+
+tr:nth-child(even) td {
+  background-color: #f1f1f1; /* Abwechselnde Zeilenfarben für bessere Lesbarkeit */
+}
+
+tr:hover td {
+  background-color: #e9f3ff; /* Farbänderung bei Hover über eine Zeile */
+}
+
+button {
+  background-color: #007bff; /* Blaue Buttons */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Dunklerer Blauton bei Hover */
+}
